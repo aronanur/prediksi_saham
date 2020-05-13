@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.wrapper{
+  height: 100vh;
+}
+
+.login-container{
+  position: relative;
+  top: 10%;
+  min-height: 400px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.button-login{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.button-action{
+  font-size: 12px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+
+.icon-button-action{
+  position: relative;
+  font-size: 18px !important;
+  left: -3px;
+  top: -1px;
+}
+
+.login-image{
+  display: block;
+  width: 12%;
+  height: 50px;
+  margin-left: 44%;
+  margin-bottom: 10px;
+}
+
+.login-form{
+  margin-top: 20px;
+}
+
+.start-icon{
+  position: relative;
+  top: -1px;
+  padding-right: 5px;
+}
+
+.login-error-notif{
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.loader {
+  text-align: center;
+  margin-top: 30vh;
+}
+
+.alert-text{
+  font-size: 13px;
+}
+
+.img-logo{
+  position: relative;
+  top: -3px;
+  padding-right: 5px;
+  width: 35px;
+  height: 35px;
+}
+
+.swal-confirm-custom{
+  font-size: 12px !important;
+}
+
+.footer{
+  height: 50px;
+}
+
+.footer-text{
+  padding-top: 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white !important;
+  text-align: left;
+}
+
+.navbar-text{
+  color: white !important;
+}
+
+.normal-table-text-head{
+  font-size: 15px;
+  text-align: center;
+}
+
+.normal-table-text-body{
+  font-size: 14px;
+  text-align: center;
+}
+
+.normal-table-text-body td {
+  vertical-align: middle !important;
+}
+
+.button-navbar{
+  position: relative;
+  top: 3px;
+  left: 10px;
+  height: 35px;
+}
+
+.bg-main{
+  background-color: #800080;
+}
+
+.home-page{
+  text-align: left;
+  margin: 20px 0;
+}
+
+.uploader-container{
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  border: 3px dashed #188038;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-main{
+  background-color: #3F3D56 !important;
+  color: white !important;
+  font-size: 18px;
+  margin-right: 5px !important;
+}
+
+.button-upload{
+  background-color: #188038 !important;
+  color: white !important;
+  font-size: 18px;
+  margin-right: 5px !important;
+}
+
+.button-truncate{
+  background-color: #dc3d45 !important;
+  color: white !important;
+  font-size: 18px;
+  margin-right: 5px !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
